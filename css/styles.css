@@ -45,3 +45,40 @@ html {
   font-weight: var(--w400);
   line-height: 2.1rem;
 }
+
+.main__container {
+  margin-left: 1.2rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.main__crew-container {
+  width: 15.6rem;
+}
+.main__crew-container--image {
+  display: flex;
+  gap: 0.6rem;
+  margin-bottom: 1rem;
+}
+.main__crew-container--image img {
+  width: 15.6rem;
+}
+
+.main__crew-container--image span {
+  font-size: 1rem;
+  line-height: 1.3rem;
+  font-family: var(--principal-font);
+  text-transform: uppercase;
+  transform: scale(1);
+  writing-mode: vertical-rl;
+}
+.main__crew-container p {
+  margin-bottom: 6.4rem;
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+  font-family: var(--secondary-font);
+  font-weight: var(--w600);
+}
+.padding-top {
+  padding-top: 5rem;
+}
