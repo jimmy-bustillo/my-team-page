@@ -1,0 +1,20 @@
+:root {
+  /* Fonts */
+  --principal-font: "PT serif", serif;
+  --secondary-font: "Poppins", sans-serif;
+
+  /* Font Weigth */
+  --w400: 400;
+  --w600: 600;
+  --w700: 700;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
