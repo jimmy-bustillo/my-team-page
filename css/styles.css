@@ -47,7 +47,7 @@ html {
 }
 
 .main__container {
-  margin-left: 1.2rem;
+  margin: 4rem 1.2rem;
   display: flex;
   flex-wrap: wrap;
   gap: 3rem;
@@ -82,4 +82,24 @@ html {
   line-height: 2.1rem;
   font-family: var(--secondary-font);
   font-weight: var(--w600);
+}
+
+.footer__container {
+  margin-top: 6rem;
+  font-family: var(--secondary-font);
+  color: #a9a9a9;
+  text-align: center;
+}
+
+@media (min-width: 1280px) {
+  .header__container {
+    margin: 10rem 0rem 10rem 0;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .header__heading {
+    font-size: 3.6rem;
+    line-height: 4.7rem;
+  }
 }
