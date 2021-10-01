@@ -92,14 +92,34 @@ html {
 }
 
 @media (min-width: 1280px) {
+  .container {
+    width: 60%;
+    margin: 0 auto;
+  }
   .header__container {
-    margin: 10rem 0rem 10rem 0;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
   }
 
   .header__heading {
     font-size: 3.6rem;
     line-height: 4.7rem;
+  }
+
+  .main__container {
+    justify-content: space-between;
+  }
+
+  .main__crew-container {
+    width: 23.8rem;
+  }
+  .main__crew-container:nth-child(2) {
+    padding-top: 9.8rem;
+  }
+  .main__crew-container:nth-child(5) {
+    padding-top: 15rem;
+  }
+  .main__crew-container--image img {
+    width: 23.8rem;
   }
 }
